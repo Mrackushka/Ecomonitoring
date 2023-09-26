@@ -1,0 +1,6 @@
+name,hazard_class,mass_flow_rate,max_emissions,avg_daily_gdk,max_single_gdk,conc_limit_with_bg_clarke,toxicity_limit,oil_combussion_coeff,objects_waste_comb_coeff,forest_fires_cpmb_coeff
+water,delicious,1,10,2000,4000,1000,99,99999,9999,999
+acid,dangerous,2,20,3000,6000,500,98,88888,8888,888
+milk,nyammie-yummie,3,30,4000,8000,250,97,77777,7777,777
+coca-cola,fu be kaka,4,40,5000,10000,125,96,66666,6666,666
+salt,just normal salt,5,50,6000,12000,62.5,95,55555,5555,555

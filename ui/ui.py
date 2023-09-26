@@ -5,13 +5,15 @@ from ui.validators import OnlyFloats
 
 class Ui_MainWindow(QtWidgets.QWidget):
 
-    def __init__(self, MainWindow, slots):
+    def __init__(self, MainWindow, slots, database):
         super().__init__()
         self.slots = slots(self)
+        self.db = database()
         self.setupUi(MainWindow)
         self.setup_signals()
         self.setup_validators()
         self.temp()
+        print(self.db.get_companies_data())
 
     def setup_signals(self):
         self.pushButton_get_result.clicked.connect(self.slots.pushButton_get_result_slot)  # type: ignore

@@ -1,0 +1,120 @@
+loss_size = mass_flow_rate * 1,1*min_wage * dimensionless_hazard * territorial_eco_coeff * pollution_coeff
+
+mass_flow_rate - это в табличке
+
+# Size of losses
+loss_size
+
+# Minimum wage amount
+min_wage
+
+# Dimensionless relative hazard indicator
+dimensionless_hazard
+
+# Coefficient accounting for territorial socio-ecological characteristics
+territorial_eco_coeff
+
+# Coefficient dependent on pollution level
+pollution_coeff
+
+
+
+(((ca*tout*vout) + (ch* tin*vin))* ef*ed)/(bw*at*365)
+
+# Daily Dose
+ADD/LADD
+
+# Air Concentration
+ca
+
+# Indoor Air Concentration
+ch
+
+# Time Outdoors
+tout
+
+# Time Indoors
+tin
+
+# Breathing Rate Outdoors
+vout
+
+# Breathing Rate Indoors
+vin
+
+# Impact Frequency
+ef
+
+# Exposure Duration
+ed
+
+# Body Mass
+bw
+
+# Averaging Period
+at
+
+
+
+
+
+Первая табличка: 
+# Name of the company
+company_name
+
+# Name of the polluting entity
+polluter_name
+
+# Quantity of emissions
+emissions_quantity
+
+# Date of the record
+date
+
+
+
+Вторая табличка:
+# Name of the company
+company_name
+
+# Type of activity
+activity_type
+
+# Ownership form
+ownership_form
+
+
+
+Третья 
+# Name of the substance
+substance_name
+
+# Hazard class
+hazard_class
+
+# Mass flow rate (g/hr)
+mass_flow_rate
+
+# Maximum permissible emissions (mg/m^3 cubed)
+max_emissions
+
+# Average daily General Threshold Limit Value (GDK) (mg/m^3 cubed)
+avg_daily_gdk
+
+# Maximum single General Threshold Limit Value (GDK) (mg/m^3 cubed)
+max_single_gdk
+
+# Permissible concentration limit with background (Clarke) (mg/kg)
+conc_limit_with_bg_clarke
+
+# Toxicity limiting factor
+toxicity_limit
+
+# Combustion coefficient for oil, petroleum products, and gas (tonnes/ton)
+oil_combustion_coeff
+
+# Combustion coefficient for objects, waste, and other substances (tonnes/ton)
+objects_waste_comb_coeff
+
+# Combustion coefficient for forest fires and other plantations (tonnes/hectare)
+forest_fires_comb_coeff
